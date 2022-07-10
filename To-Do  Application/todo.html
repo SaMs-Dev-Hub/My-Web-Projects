@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="todo.css" type="stylesheet"/>
+
+    <title>Document</title>
+<style>
+   body {
+background-color: aqua;
+position: absolute;
+transform: translateX(600px);
+   }
+#form{
+    /* text-align: center; */
+}
+#heading{
+    /* text-align: center; */
+    margin-top: 50px;
+    color: black;
+}
+#input{
+
+padding: 10px 50px;
+
+}
+#submit{
+   margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3578E5;
+}
+#ullist{
+    font-size: 25px;
+    /* text-align: center; */
+
+} 
+
+</style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body id="body">
+    <div id="div">
+    <h1 id="heading">ToDo List</h1>
+<form id="form">
+    <input  id="input" type="text" placeholder="Enter your todo item"/>
+    <input id="submit" type="submit"/>
+    <ol  id="ullist">
+
+    </ol>
+</form>
+<script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="todo.js"></script>
+</div>
+</body>
+
+</html>
